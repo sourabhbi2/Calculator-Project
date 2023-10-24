@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background: linear-gradient(45deg, #0b0b0b, #43325e);
 }
 .calc{
     border: 1px solid #717377;
@@ -54,7 +54,7 @@ button{
     cursor: pointer;
 }
 .operator{
-    color: chartreuse;
+    color: rgb(39, 206, 228);
 }
 
 
