@@ -26,7 +26,7 @@ let string = '';
         
 //     } else {
 //         if (buttonValue == '' && specialChars.includes(buttonValue)) {
-//             string += buttonValue;
+//             return;
             
 //         }
 //     }
