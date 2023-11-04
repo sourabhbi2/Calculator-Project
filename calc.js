@@ -48,6 +48,7 @@ arr.forEach(buttons => {
         if (e.target.innerHTML == '=' && string !== '') {
             string = eval(string.replace('%', '/100'));
             input.value = string;
+            input.style.fontSize = '40px'
             string = ''
         } else if (e.target.innerHTML == 'AC') {
             string = '';
@@ -71,5 +72,9 @@ arr.forEach(buttons => {
                 input.style.fontSize = '40px'
             }
         }
-    })
-})
+        
+    });
+});
+
+
+
