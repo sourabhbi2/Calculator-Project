@@ -63,6 +63,13 @@ arr.forEach(buttons => {
                 
             string += e.target.innerHTML;
             input.value = string;
+
+            if(string.length > 10){
+                input.style.fontSize = "20px";
+                
+            } else{
+                input.style.fontSize = '40px'
+            }
         }
     })
 })
